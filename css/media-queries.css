@@ -1,0 +1,93 @@
+@media screen and (min-width:1600px){.facts .city,.facts .city2,.home .container,.home .home-slider .background-image,.home .home-slider .background-image2,.home .home-slider .background-image3{background-size:100%}
+}
+@media screen and (max-width:1366px) and (min-width:960px){.features .features-slider{width:85.65%;height:165px}
+.features .features-slider .container{width:168.376%}
+.features .features-slider .container .branding,.features .features-slider .container .consulting,.features .features-slider .container .development{width:18.7817%}
+.features .dots{margin-top:35px}
+.team #slider-team{width:85.65%}
+.team .container{width:151.28%}
+.team .container div{width:15.2542%}
+.facts .container div{width:200px}
+}
+@media screen and (max-width:960px){.features .container div:nth-child(4),.features .container div:nth-child(5),.features .dots,.home .dots,.team .container .photo-hover p,.team .container div:nth-child(5),.team .container div:nth-child(6),.team .dots,footer .container .brandi,footer .container .subscribe p{display:none}
+.main-header p{margin-left:0}
+.home .home-slider{top:0!important}
+.features{height:400px}
+.features .icon{margin-bottom:20px}
+.features .features-slider{width:97%;height:200px}
+.features .container{width:100%;height:100%}
+.features .container div{width:27%}
+.features .container div p{width:100%}
+.works{height:760px}
+.works .text{width:97%}
+.works .container{align-items:flex-start;height:410px}
+.works .container .image{height:50%}
+.works .container .image .image-hover{padding-top:10%;text-align:center}
+.works .container .image .image-hover span{width:100px}
+.team{height:700px}
+.team .text{width:97%}
+.team #slider-team{width:98%}
+.team .container{left:0!important;width:100%}
+.team .container div{width:25%}
+.facts .container{width:97%;text-align:center}
+.facts .container div{width:150px}
+.facts .container .text{width:100px}
+.contact{height:570px}
+.contact .text{width:97%}
+.contact .container{padding-right:10px;padding-left:10px;width:97%}
+footer{height:330px}
+footer .container{flex-direction:column;align-items:center;width:97%;height:300px}
+footer .container div{justify-content:space-around;width:50%;height:100px}
+footer .container h4{margin:0;padding:0;text-align:center}
+footer .container .subscribe input{margin-top:-20px}
+footer .container .explore{height:80px;padding:0}
+footer .container .explore ul{flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;margin:0;height:50px}
+footer .container .explore ul a{display:block;margin-right:10px;width:100px;height:20px}
+footer .container .create p{margin-top:0;padding-left:8px;text-align:center}
+footer .container .create #reserved{display:block;margin-top:-20px;text-align:center}
+}
+@media screen and (max-width:650px) and (min-width:310px){.contact .container .adress,.contact .text,.features .container div span:last-child,.main-header p,.team .text,.works .text{display:none}
+.main-header{background:rgba(16,22,54,.4)}
+.main-header .brandi{margin-right:5%}
+.main-header ul{flex-wrap:wrap;justify-content:center;margin-right:3%}
+.main-header ul a{width:52px}
+.home{height:450px}
+.home .text{margin-top:150px;width:97%;height:200px}
+.home .text p:first-child{font-size:40px}
+.home .text p:nth-child(2){margin-top:-45px;font-size:23px}
+.home .text p:nth-child(3){margin-top:-10px;font-size:15px}
+.features{height:350px}
+.features .icon{margin-bottom:10px}
+.features .features-slider{width:70%;height:160px}
+.features .container{-moz-flex-direction:column;flex-direction:column;align-items:center;width:100%;height:100%}
+.features .container div{justify-content:center;width:200px;height:100%}
+.features .container div p{width:150px}
+.works{height:900px}
+.works .icon{margin-bottom:20px}
+.works ul{flex-wrap:wrap;justify-content:center;width:97%;padding:0}
+.works ul button{margin:2px}
+.contact .icon,.facts .icon{margin-bottom:20px}
+.works .container .image{width:50%;height:150px}
+.works .container .image .image-hover{padding-top:20px}
+.works .container .image .image-hover span{margin-top:10px;width:100%;font-size:15px}
+.team{height:750px}
+.team #slider-team{height:550px}
+.team .container{flex-wrap:wrap;height:550px}
+.team .container div{width:49%;height:250px}
+.team .container .photo{height:200px;background-position:0 10%;background-size:cover}
+.facts{height:350px}
+.facts .container{flex-wrap:wrap;width:97%}
+.facts .container div{justify-content:center;width:25%;height:150px}
+.facts .container .logo{width:77px;height:77px;border-radius:38.5px}
+.facts .container .number{margin-top:5px;height:30px;font-size:30px}
+.facts .container .text{margin-top:5px;width:100%;font-size:13px}
+.contact{height:440px}
+.contact .container{margin:0 auto;width:95%;flex-direction:column}
+.contact .container .form{width:96%;padding:0;margin-bottom:10px}
+.contact .container .form form{margin-top:10px}
+.contact .container .form #form-submit{margin-left:0}
+.contact .container .form label[for=submit]{margin-left:5px}
+.contact .container .socials{flex-direction:row;width:270px;height:70px}
+footer .container{padding-left:5px;width:100%}
+footer .container .create p,footer .container div{width:97%}
+}

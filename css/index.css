@@ -1,0 +1,177 @@
+.contact .header,.facts .container .text,.facts .header,.team .header{text-transform:uppercase}
+.main-header ul a:after,footer .container .explore ul a:after{content:"";transform:translateX(-50%)}
+@font-face{src:url(../fonts/Pacifico.ttf);font-family:Brandi}
+@font-face{src:url(../fonts/OpenSans.ttf);font-family:OpenSans}
+@font-face{src:url(../fonts/OpenSans-Light.ttf);font-family:OpenSans-Light}
+@font-face{src:url(../fonts/OpenSans-ExtraBold.ttf);font-family:OpenSans-ExtraBold}
+@font-face{src:url(../fonts/OpenSans-Semibold.ttf);font-family:OpenSans-Semibold}
+@font-face{src:url(../fonts/OpenSans-Bold.ttf);font-family:OpenSans-Bold}
+*{transition:.4s}
+.flexbox{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}
+.align-items-center{align-items:center}
+body>div{border-bottom:2px solid #000;overflow:hidden}
+.main-header{position:fixed;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;width:100%;height:70px;background:rgba(16,22,54,.2);z-index:9999}
+.main-header .brandi{position:relative;margin-right:auto;margin-left:5%;width:85px;font-family:Brandi;font-size:28px;color:#fff}
+.main-header p{position:relative;margin-right:auto;margin-left:-15%;padding-left:20px;width:105px;border-left:2px solid rgba(50,176,238,.3);font-family:OpenSans-Light;font-size:13px;color:#546366}
+.main-header ul{position:relative;display:flex;margin-left:auto;margin-right:5%;padding:0;width:300px;height:20px}
+.main-header ul a{display:inline-block;width:60px;text-decoration:none;text-align:center;color:#fff;font-size:13px;font-family:OpenSans}
+.main-header ul a:after{position:relative;left:50%;display:block;height:1px;width:0;background:#fff;transition:.3s}
+.main-header ul a:hover:after{width:100%}
+.home{position:relative;width:100%;height:800px;overflow:hidden}
+.home .container{position:absolute;width:100%;height:800px;background:url(../pictures/home.jpg) 50% 50% no-repeat;z-index:2;opacity:.93}
+.home .home-slider{position:absolute;width:100%;height:2400px;z-index:1;transition:.4s}
+.home .social,.home .text{position:relative;display:flex}
+.home .home-slider .background-image{width:100%;height:33.33333%;background:url(../pictures/home-slider2.jpg) 50% 50% no-repeat;z-index:1}
+.home .home-slider .background-image2{background:url(../pictures/home-slider1.jpg) 50% 50% no-repeat}
+.home .home-slider .background-image3{background:url(../pictures/home-slider3.jpg) 50% 50% no-repeat}
+.home .text{flex-direction:column;justify-content:center;align-items:center;margin:300px auto 0;width:620px;height:400px;z-index:5}
+.home .text p{font-family:OpenSans-Light;color:#fff}
+.home .text p:first-child{font-size:62px}
+.home .text p:nth-child(2){margin-top:-70px;font-size:48px}
+.home .text p:nth-child(3){margin-top:-30px;font-size:18px}
+.home .text span{font-family:OpenSans-Semibold}
+.home .text #creative{font-family:OpenSans-Light;color:#0fda93}
+.features .header,.works .header{color:#0eb493;text-transform:uppercase}
+.home .social{justify-content:space-between;align-items:center;padding:0;margin:35px auto 0;width:105px;height:20px;z-index:6}
+.home .social a{display:block;width:20px;height:20px;background:url(../pictures/home-tw.png);opacity:.3}
+.home .social a:hover{opacity:1}
+.home .social .fb{background:url(../pictures/home-fb.png)}
+.home .social .g{background:url(../pictures/home-g+.png)}
+.home .social .bb{background:url(../pictures/home-bb.png)}
+.home .dots{position:absolute;left:97%;top:40%;flex-direction:column;display:flex;justify-content:space-between;margin:50px auto 0;width:10px;height:50px;z-index:2}
+.home .dots .dot{width:6px;height:6px;border:1.5px solid #333b3e;border-radius:5px;cursor:pointer;transition:.4s}
+.home .dots .dot1{background:#fff}
+.features{width:100%;height:460px;background:#f4f7f9}
+.features .header{margin:0 auto;padding-top:75px;width:140px;height:25px;font-size:28px;background:0 0;font-family:OpenSans-ExtraBold}
+.features .icon{margin:20px auto 50px;width:230px;height:20px;background:url(../pictures/icon.png);background-color:none}
+.features span:first-child{display:block;width:100px;height:25px;font-size:20px;font-family:OpenSans-Semibold}
+.features p{width:250px;height:150px;font-size:13px;font-family:OpenSans}
+.features .features-slider{margin:0 auto;width:1170px;height:150px;overflow:hidden}
+.features .container{position:relative;display:flex;justify-content:space-between;margin:0 auto;width:1970px;height:100%;transition:.4s}
+.features .container .branding,.features .container .consulting,.features .container .development{width:370px;height:150px;display:flex}
+.features .container .logo{width:70px;height:60px;background:url(../pictures/logo-branding.png) 50% 50% no-repeat}
+.features .container .logo-development{background-image:url(../pictures/logo-development.png)}
+.features .container .logo-consulting{background-image:url(../pictures/logo-consulting.png)}
+.features .dots{display:flex;justify-content:space-between;margin:50px auto 0;width:50px;height:10px}
+.features .dots .dot{width:10px;height:10px;background:url(../pictures/team-dot.png) #000;border-radius:5px;cursor:pointer;transition:.4s}
+.features .dots .dot2,.features .dots .dot3{background-color:#f4f7f9}
+.features .dots .dot1.active,.features .dots .dot2.active,.features .dots .dot3.active{background-color:#000}
+.works{width:100%;height:950px}
+.works .header{margin:0 auto;padding-top:90px;width:110px;height:25px;font-size:28px;background:0 0;font-family:OpenSans-ExtraBold}
+.works .icon{margin:20px auto 30px;width:230px;height:20px;background:url(../pictures/icon.png);background-color:none}
+.works .text{margin:0 auto 50px;width:935px;height:50px;font-family:OpenSans-Semibold;font-size:18px;text-align:center}
+.works ul{display:flex;justify-content:space-around;color:#000;margin:0 auto 35px;width:570px;height:30px}
+.works ul button{background:0 0;border:none;border-radius:5px;font-family:OpenSans-Bold;font-size:14px;transition:.4s}
+.works ul button:hover{color:#fff;background-color:#0eb493}
+.works ul button:first-child,.works ul button:nth-child(3){width:60px}
+.works ul button:active,.works ul button:focus{outline:0;border:none}
+.works ul button:nth-child(4){width:110px}
+.works .container{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:0;width:100%;height:600px}
+.works .container .image{margin:0;padding:0;width:25%;height:300px;background-size:cover;background-position:50% 50%;transition:.4s;overflow:hidden}
+.works .container .image1{background-image:url(../pictures/image1.jpg)}
+.works .container .image2{background-image:url(../pictures/image2.jpg)}
+.works .container .image3{background-image:url(../pictures/image3.jpg)}
+.works .container .image4{background-image:url(../pictures/image4.jpg)}
+.works .container .image5{background-image:url(../pictures/image5.jpg)}
+.works .container .image6{background-image:url(../pictures/image6.jpg)}
+.works .container .image7{background-image:url(../pictures/image7.jpg)}
+.works .container .image8{background-image:url(../pictures/image8.jpg)}
+.works .container .image:hover .image-hover{top:0}
+.works .container .image .image-hover{position:relative;top:100%;padding-top:90px;width:100%;height:100%;opacity:.9;background:#1cb091;color:#fff;transition:.4s}
+.team .container div:hover .name,.team .header{color:#0eb493}
+.works .container .image .image-hover .icon-image-hover{margin:0 auto;width:50px;height:50px;background:url(../pictures/icon-image-hover.png)}
+.works .container .image .image-hover span{display:block;margin:25px auto 0;width:235px;font-family:OpenSans-Bold;font-size:18px;text-align:center}
+.team{width:100%;height:930px}
+.team .header{margin:0 auto;padding-top:90px;width:232px;height:25px;font-size:28px;background:0 0;font-family:OpenSans-ExtraBold}
+.team .container .name,.team .text{font-family:OpenSans-Semibold;font-size:18px}
+.team .icon{margin:20px auto 30px;width:230px;height:20px;background:url(../pictures/icon.png);background-color:none}
+.team .text{margin:0 auto 50px;width:935px;height:50px;text-align:center}
+.team #slider-team{margin:0 auto;width:1170px;height:365px;overflow:hidden;transition:.4s}
+.team .container{position:relative;display:flex;justify-content:space-between;margin:0 auto;width:1770px;height:365px;transition:.4s}
+.team .container div{display:flex;flex-direction:column;justify-content:space-between;align-items:center;width:270px;height:365px}
+.team .container .photo{width:100%;height:300px;background:url(../pictures/john.jpg) 50% 50% no-repeat;transition:.4s;overflow:hidden}
+.team .container .photo-chystine{background-image:url(../pictures/chystine.jpg)}
+.team .container .photo-martin{background-image:url(../pictures/martin.jpg)}
+.team .container .photo-steve{background-image:url(../pictures/steve.jpg)}
+.team .container .name{width:100%;height:30px;margin-top:10px;color:#000;transition:.3s}
+.team .container .position{width:100%;height:20px;color:rgba(115,130,141,.56);font-family:OpenSans;font-size:13px}
+.team .container .photo-hover{display:flex;justify-content:space-around;align-items:center;position:relative;top:100%;width:100%;height:100%;background:#0eb493;opacity:.95;transition:.4s}
+.team .container .photo-hover p{display:block;margin-top:-10px;width:76.67%;height:100px;color:#fff;font-size:16px;font-family:OpenSans;text-align:center;transition:.4s}
+.team .container .photo-hover p span{font-family:OpenSans-Bold}
+.team .container .photo-hover .socials{display:flex;justify-content:space-between;flex-direction:row;margin-top:60px;width:135px;height:42px;transition:.4s}
+.team .container .photo-hover .socials .social{width:42px;height:42px;background:url(../pictures/tw.png) 50% 50% no-repeat rgba(10,122,101,.6)}
+.team .container .photo-hover .socials .social:hover{background-color:#0a7a65}
+.team .container .photo-hover .socials .fb{background-image:url(../pictures/fb.png)}
+.team .container .photo-hover .socials .g{background-image:url(../pictures/g+.png)}
+.team .container .photo:hover .photo-hover{top:0}
+.team .dots{display:flex;justify-content:space-between;margin:50px auto 0;width:50px;height:10px}
+.contact .container,.facts .container{justify-content:space-between;display:flex}
+.team .dots .dot{width:10px;height:10px;background:url(../pictures/team-dot.png) #000;border-radius:5px;cursor:pointer;transition:.4s}
+.team .dots .dot2,.team .dots .dot3{background-color:#fff}
+.team .dots .dot1.active,.team .dots .dot2.active,.team .dots .dot3.active{background-color:#000}
+.facts{position:relative;width:100%;height:600px;background:#000;overflow:hidden}
+.facts .header{position:relative;margin:0 auto;padding-top:90px;width:242px;height:25px;font-size:28px;color:#0eb493;font-family:OpenSans-ExtraBold;z-index:3}
+.facts .icon{position:relative;margin:20px auto 50px;width:230px;height:20px;background:url(../pictures/icon-facts.png);background-color:none;z-index:4}
+.facts .container{position:relative;margin:0 auto;width:85.65%;height:260px;z-index:2}
+.facts .container div{display:flex;flex-direction:column;justify-content:space-between;align-items:center;width:270px;height:260px}
+.facts .container .logo{width:130px;height:130px;background:url(../pictures/logo-hours.png) 50% 50% no-repeat;border-radius:65px;transition:.4s}
+.facts .container .logo:hover{background-color:#0eb493}
+.facts .container .logo-clients{background-image:url(../pictures/logo-clients.png)}
+.facts .container .logo-projects{background-image:url(../pictures/logo-projects.png)}
+.facts .container .logo-awards{background-image:url(../pictures/logo-awards.png)}
+.facts .container .number{height:70px;margin-top:20px;color:#fff;font-family:OpenSans-Semibold;font-size:60px}
+.facts .container .text{height:30px;color:#fff;font-family:OpenSans;font-size:18px;text-align:center}
+.facts #city-slider{position:absolute;top:0;width:100%;height:1200px;transition:.5s;background:red;z-index:1}
+.facts .city{width:100%;height:600px;background:url(../pictures/facts-background2.png) 50% 50% no-repeat}
+.facts .city2{background-image:url(../pictures/facts-background1.png)}
+.contact{position:relative;width:100%;height:640px;border-bottom:2px solid #d3d3d3}
+.contact .header{margin:0 auto;padding-top:90px;width:200px;height:25px;font-size:28px;background:0 0;color:#0eb493;font-family:OpenSans-ExtraBold}
+.contact .icon{margin:20px auto 30px;width:230px;height:20px;background:url(../pictures/icon.png);background-color:none}
+.contact .text{margin:0 auto 50px;width:935px;height:50px;font-family:OpenSans-Semibold;font-size:18px;text-align:center}
+.contact .container{margin:0 auto;width:85.65%;height:240px}
+.contact .container .adress{width:270px;height:100%}
+.contact .container .adress span{font-family:OpenSans;font-size:22px}
+.contact .container .adress p{margin-top:35px;width:180px;font-family:OpenSans;font-size:13px}
+.contact .container .form{position:relative;padding-left:10px;padding-right:10px;width:770px;height:100%;font-family:OpenSans-Bold;font-size:24px}
+.contact .container .form form{display:flex;justify-content:space-between;flex-wrap:wrap;margin-top:40px}
+.contact .container .form div{width:47%;color:#b2b7bb;font-family:OpenSans;font-size:13px}
+.contact .container .form div:focus{border:1.5px solid #b2b7bb;border-radius:5px}
+.contact .container .form #form-message{margin-top:20px;margin-bottom:20px;width:100%}
+.contact .container .form #form-message:focus{margin-top:21.5px;margin-bottom:18.5px}
+.contact .container .form #form-submit{margin-left:auto;width:140px}
+.contact .container .form input{margin-right:auto;width:100%;border:none;border-bottom:1.5px solid #b2b7bb;color:#d3d3d3}
+.contact .container .form input[type=submit]{width:20px;height:13px;background:url(../pictures/submit.png) 50% 50% no-repeat;background-size:cover;border:none;cursor:pointer}
+.contact .container .form label[for=submit]{margin-left:10px;font-family:OpenSans;font-size:16px;cursor:pointer}
+.contact .container .socials{display:flex;justify-content:space-around;flex-direction:column;align-items:center;width:70px;height:100%}
+.contact .container .socials .social{width:30px;height:30px;background:url(../pictures/contact-be.png) 50% 50% no-repeat}
+.contact .container .socials a{opacity:.4}
+.contact .container .socials a:hover{opacity:1}
+.contact .container .socials .tw{background-image:url(../pictures/contact-tw.png)}
+.contact .container .socials .bb{background-image:url(../pictures/contact-bb.png)}
+.contact .container .socials .ca{background-image:url(../pictures/contact-ca.png)}
+.contact .container .socials .g{background-image:url(../pictures/contact-g+.png)}
+.contact .container .socials .fb{background-image:url(../pictures/contact-fb.png)}
+#map{width:100%;height:215px}
+footer{margin-bottom:50px;padding-top:95px;width:100%;height:405px;background:#1ea78d}
+footer .container{display:flex;justify-content:space-between;margin:0 auto;width:85.65%;height:185px}
+footer .container div{display:flex;justify-content:space-between;flex-direction:column;margin-right:10px;width:23%;height:100%;color:#fff;font-family:OpenSans;font-size:13px}
+footer .container div h4{font-family:OpenSans-Bold;color:#d2ede8;font-size:14px}
+footer .container .brandi h3{display:block;margin:0;font-family:Brandi;font-size:28px}
+footer .container .subscribe input{padding-left:5px;padding-right:5px;height:40px;background:#1ea78d;border:2px solid #fff;border-radius:2px;font-family:OpenSans;font-size:17px}
+footer .container .explore ul{display:flex;flex-direction:column;justify-content:space-between;align-content:space-between;flex-wrap:wrap;padding:0;width:100%}
+footer .container .explore ul a{width:43%;height:25px;color:#fff;text-decoration:none}
+footer .container .explore ul a:nth-child(1){width:45px}
+footer .container .explore ul a:nth-child(2){width:75px}
+footer .container .explore ul a:nth-child(3){width:110px}
+footer .container .explore ul a:nth-child(4){width:85px}
+footer .container .explore ul a:nth-child(5){width:80px}
+footer .container .explore ul a:nth-child(6){width:60px}
+footer .container .explore ul a:nth-child(7){width:45px}
+footer .container .explore ul a:nth-child(8){width:40px}
+footer .container .explore ul a:after{position:relative;left:50%;display:block;height:1px;width:0;background:#fff;transition:.3s}
+footer .container .explore ul a:hover:after{width:100%}
+footer .container .create{position:relative}
+footer .container .create p{display:block;margin-top:60px;padding-left:20px;width:100%;height:33%;border-left:2px solid #000}
+footer .container .create span{color:#000}
+footer .container .create #reserved{margin-left:20px}
+footer .container .create #create-logo{position:relative;display:inline-block;top:4px;width:30px;height:20px;background:url(../pictures/create-logo.png) 50% 50% no-repeat}

@@ -1,0 +1,1 @@
+var slider=document.getElementById("city-slider");setInterval(function(){setTimeout(function(){slider.style.top="0"},2e3),setTimeout(function(){slider.style.top="-600px"},4e3)},4e3);

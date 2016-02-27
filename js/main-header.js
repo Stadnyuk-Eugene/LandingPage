@@ -1,0 +1,1 @@
+!function(){var e=document.querySelector(".main-header p"),t=document.querySelectorAll(".main-header p span"),c=document.querySelector(".main-header ul");e.onclick=function(){for(var e=0;e<t.length;e++)t[e].classList.toggle("active");c.classList.toggle("active")}}();
